@@ -1,0 +1,25 @@
+{
+    "Search": [
+        {
+            "Title": "Batman: The Killing Joke",
+            "Year": "2016",
+            "imdbID": "tt4853102",
+            "Type": "movie",
+            "Poster": "https://ia.media-imdb.com/images/M/MV5BMTdjZTliODYtNWExMi00NjQ1LWIzN2MtN2Q5NTg5NTk3NzliL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Batman: The Dark Knight Returns, Part 2",
+            "Year": "2013",
+            "imdbID": "tt2166834",
+            "Type": "movie",
+            "Poster": "https://ia.media-imdb.com/images/M/MV5BYTEzMmE0ZDYtYWNmYi00ZWM4LWJjOTUtYTE0ZmQyYWM3ZjA0XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Batman: Mask of the Phantasm",
+            "Year": "1993",
+            "imdbID": "tt0106364",
+            "Type": "movie",
+            "Poster": "https://ia.media-imdb.com/images/M/MV5BODE0YTBiMjQtNWQyZC00YTNjLWJmYjAtMWUwNzI4NGVlZTAzL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg"
+        }  
+    ]
+}

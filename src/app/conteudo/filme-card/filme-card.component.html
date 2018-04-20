@@ -1,0 +1,20 @@
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" [src]="filme.poster" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">{{ filme.titulo }}</h5>
+    <p class="card-text">
+      ID:
+      <span class="badge badge-pill badge-info">{{ filme.id }}</span>
+    </p>
+    <p class="card-text">
+      Tipo:
+      <span class="badge badge-pill badge-info">{{ filme.tipo }}</span>
+    </p>
+    <p class="card-text">
+      Ano:
+      <span class="badge badge-pill badge-info">{{ filme.ano }}</span>
+    </p>
+    <button class="btn btn-danger" (click)="ApagaCard()" >Excluir</button>
+  </div>
+</div>
+<hr class="my-4">
