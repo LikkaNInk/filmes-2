@@ -14,17 +14,8 @@ export class CatalogoFilmesComponent implements OnInit {
 
   constructor(private FilmesService: FilmesService) { }
 
-  ngOnInit() {
+  ngOnInit() {  
 
-    this.FilmesService.getFilmes().subscribe(data => console.log(data['Search'].map(filme => {
-      let film = {
-        'id': filme.imdbID, 'titulo': filme.Title,
-        'ano': filme.Year, 'tipo': filme.Type, 'poster': filme.Poster
-      }
-
-      this.listaFilmes.push(film);
-
-    })));
   }
 
   ApagaFilme(filme: Filme): void {
@@ -32,6 +23,11 @@ export class CatalogoFilmesComponent implements OnInit {
     this.listaFilmes = this.listaFilmes.filter(item => item.id != filme.id)
 
 
+  }
+
+  carregaLista( Lista: Filme[]) {
+
+    this.listaFilmes = Lista;
   }
 
 }

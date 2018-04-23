@@ -1,16 +1,24 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms'
+
 import { CatalogoFilmesComponent } from './catalogo-filmes/catalogo-filmes.component';
 import { FilmeCardComponent } from './filme-card/filme-card.component';
+import { FormPesquisaComponent } from './catalogo-filmes/form-pesquisa/form-pesquisa.component';
+
 import { FilmesService } from './filmes.service';
-import { HttpClientModule } from '@angular/common/http';
+
+
 
 @NgModule({
   imports: [
     CommonModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
+    
   ],
-  declarations: [CatalogoFilmesComponent, FilmeCardComponent],
+  declarations: [CatalogoFilmesComponent, FilmeCardComponent, FormPesquisaComponent],
   
 exports: [
 
